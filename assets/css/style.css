@@ -49,18 +49,20 @@ a {
 h2 {
     color: #4aaaa5;
     font-family: "Georgia", Times, Times New Roman, serif;
-    padding: 12px;
+    padding: 12px 0; 
     border-bottom: 2px solid #dddddd;
-    margin: 0 40px;
+    margin: 0 52px;
 }
 
 .img1 {
     float: left;
-    padding: 20px 40px;
+    margin: 0 52px;
+    padding: 20px 0px;
 }
 
 p {
-    padding: 0 40px;
+    padding: 0px 0px;
+    margin: 20px 52px;
     color: #777777;
 }
 
@@ -71,8 +73,79 @@ footer {
     text-align: center;
     border-top: 5px solid #4aaaa5;
     padding: 20px;
-    position: absolute;
+    position: static;
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+form {
+    padding: 20px 52px;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+}
+
+input[type=text] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px; 
+    border-width: 1px;
+    border-color: #dddddd;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px 30px;
+    font-size: 1em; 
+    margin: 10px 0;
+}
+
+.imgLeft {
+    position: relative;
+    margin: 0 52px;
+    padding: 20px 0;
+    float: left;
+}
+
+.imgRight {
+    position: relative;
+    padding: 20px;
+}
+
+.imgLast{
+    position: relative;
+    margin: 0 52px;
+    padding: 20px 0;
+}
+
+.textTag {
+    position: absolute;
+    top: 150px;
+    width: 200px;
+    text-align: center;
+    background-color: #4aaaa5;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.textRight{
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    left: 304px;
+    width: 200px;
+    background-color: #4aaaa5;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 5px 0;
 }
